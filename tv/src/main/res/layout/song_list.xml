@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#A6F1F0F0"
+    android:orientation="horizontal"
+    android:paddingStart="4dp"
+    android:paddingTop="5dp"
+    android:paddingEnd="4dp"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#439E46"
+            android:padding="5dp"
+            android:text="1"
+            android:textColor="#191818"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/vPathName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lb_basic_card_bg_color"
+            android:focusable="true"
+            android:padding="4dp"
+            android:text="dsgsdgsdg"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

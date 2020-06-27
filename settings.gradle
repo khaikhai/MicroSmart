@@ -1,0 +1,2 @@
+rootProject.name='Micro Smart'
+include ':tv'
